@@ -6,3 +6,12 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 
 Vue.use(BootstrapVue);
+
+import Example from './components/Example';
+
+new Vue({
+    el: '#app',
+    components: {
+        Example
+    }
+});

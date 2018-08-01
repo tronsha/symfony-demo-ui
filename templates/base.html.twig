@@ -8,7 +8,6 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="{{ asset('apple-touch-icon.png') }}">
     <link rel="stylesheet" href="{{ asset('build/app.css') }}">
     <link rel="stylesheet" href="{{ asset('build/fonts.css') }}">
-    <script src="{{ asset('build/app.js') }}"></script>
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
@@ -25,6 +24,8 @@
         <span class="text-muted"><a href="{{ path('terms') }}">Terms</a></span>
     </div>
 </footer>
+
+<script src="{{ asset('build/app.js') }}"></script>
 {% block javascripts %}
 {% endblock %}
 </body>
